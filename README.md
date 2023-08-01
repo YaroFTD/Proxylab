@@ -1,4 +1,4 @@
-<h1><a href="https://yaloftd.github.io/Hydra/">Одностраничный сайт</a> диджитал агентства</h1>
+<h1><a href="https://yaloftd.github.io/Proxylab/">Одностраничный сайт</a> диджитал агентства</h1>
 <ul>
   <li>Адаптив до 320px;</li>
   <li>Меню бургер;</li>
