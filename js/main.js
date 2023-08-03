@@ -1,4 +1,5 @@
 "use strict";
+
 let reviewsSwiper = document.querySelector('.reviews__slider');
 if (reviewsSwiper) {
    const swiper = new Swiper('.reviews__slider', {
@@ -52,13 +53,11 @@ if (reviewsSwiper) {
  * @property {string} order
  * @property {number} index
  */
-
 /**
  * @typedef {Object} dMediaQuery
  * @property {string} query
  * @property {number} breakpoint
  */
-
 /**
  * @param {'min' | 'max'} type
  */
@@ -240,7 +239,6 @@ menu.addEventListener('click', function () {
 let header = document.querySelector('.header');
 document.onscroll = function () {
    let scroll = window.scrollY;
-
    if (scroll > 0){
       header.classList.add('fixed');
    } else {
@@ -262,11 +260,10 @@ if (menuLinks.length > 0) {
          let gotoBlock = document.querySelector(menuLink.dataset.goto);
          let gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
 
-         if (menu.classList.contains('active')) {
-            document.body.classList.remove('lock');
-            menu.classList.remove('active');
-            menuBody.classList.remove('active');
-            menuBox.classList.remove('active');
+         if (menu.classList.contains('_active')) {
+            document.body.classList.remove('_lock');
+            menu.classList.remove('_active');
+            menuBody.classList.remove('_active');
          }
 
          window.scrollTo({
@@ -384,6 +381,7 @@ function setTabsAction(e) {
       e.preventDefault();
    }
 }
+
 // Обработа медиа запросов из атрибутов 
 function dataMediaQueries(array, dataSetValue) {
 	// Получение объектов с медиа запросами
@@ -572,9 +570,6 @@ if (spollersArray.length > 0) {
 		});
 	}
 }
-
-
-
 // Вспомогательные модули плавного расскрытия и закрытия объекта ===========================================
 let _slideUp = (target, duration = 500) => { 
    if (!target.classList.contains('_slide')) {
