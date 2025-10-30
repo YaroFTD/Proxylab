@@ -1,4 +1,4 @@
-<h1><a href="https://jaroftd.github.io/Proxylab/">Одностраничный сайт</a> диджитал агентства</h1>
+<h1><a href="https://yaroftd.github.io/Proxylab/">Одностраничный сайт</a> диджитал агентства</h1>
 <ul>
   <li>Адаптив до 320px;</li>
   <li>Меню бургер;</li>
